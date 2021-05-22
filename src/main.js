@@ -9,7 +9,7 @@ import PrimeVue from 'primevue/config';
 
 Vue.config.productionTip = false
 
-Axios.defaults.baseURL = 'http://localhost:3000/';
+Axios.defaults.baseURL = 'https://bhagyesh-enterprise-api.herokuapp.com';
 
 Vue.prototype.$http = Axios
 
